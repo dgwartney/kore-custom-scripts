@@ -1,4 +1,5 @@
 const apis = require('./apis/');
+const _ = require('lodash');
 const { RestClientError } = require('./restClient');
 
 async function nasaApod(apiKey) {
